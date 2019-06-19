@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dewi.angkot"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="23" />
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.dewi.angkot.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>        
+        
+        <activity android:name=".R1"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P1"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R2"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P2"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R3"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P3"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R4"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P4"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R5"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R5" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P5"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P5" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R6"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R6" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P6"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P6" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R7"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R7" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P7"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P7" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R8"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R8" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P8"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P8" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R9"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R9" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P9"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P9" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R10"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R10" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P10"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P10" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R11"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R11" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P11"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P11" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R12"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P12"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R13"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P13"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R14"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R14" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P14"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P14" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R15"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R15" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P15"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P15" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R16"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R16" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P16"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P16" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R17"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R17" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P17"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P17" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R18"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R18" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P18"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P18" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".R19"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.R19" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".P19"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.dewi.angkutan.P19" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

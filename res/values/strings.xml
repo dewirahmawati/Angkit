@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Angkot</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="TextView">Rute Awal     :</string>
+    <string name="TextView2">Rute Tujuan :</string>
+    <string name="Button">Cari</string>
+    <string name="TextView3"> </string>
+    <string name="c">Lihat Peta</string>
+
+</resources>
